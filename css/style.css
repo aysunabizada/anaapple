@@ -1,0 +1,344 @@
+/* :root { --gray: rgba(0, 0, 0, 0.8) } */
+/* .txtgray { color: var(--gray) } */
+html{overflow-x: hidden;}
+body{
+    overflow-x: hidden;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.txtgray{color: #6e6e73;}
+.txtwhite{color: #fff;}
+.bggray{ background-color: #F2F2F2 }
+.bgwhite{background-color: #fff;}
+.bgblack{background-color: #000;}
+.txtred{color: #BF4800;}
+.fs24{font-size: 2.4em;}
+.hover-line:hover{text-decoration: underline;}
+
+#nav1 a, .swiper-slide a, .hiddenbars a, .items a{color: rgba(0, 0, 0, 0.8);}
+#nav1 a:hover{color: rgba(0, 0, 1, 3);}
+#nav1 li{
+    padding: 14px 0;
+    font-size: 0.813em;
+}
+#nav1 ul{
+    justify-content: space-between; 
+    flex-direction: row; 
+    gap: 15px; 
+    display: flex;
+}
+.nav-list{display: none;}
+#nav1 i{font-size: 1.3em;}
+.hiddenbars{
+    display: none;
+    font-size: 1.8em;
+    font-weight: 600;
+    padding: 5px 25px;
+    height: 100vh;
+}
+.hiddenbars ul{
+    display: flex;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin: 30px;
+}
+.swiper-button-next ,.swiper-button-prev {
+    color: #888; 
+    height: 100%; 
+    width: 35px; 
+    top: 0;
+}
+.swiper-button-prev{left: 0;}
+.swiper-button-next{right: 0;}
+.swiper-button-next::after{font-size: 21px;}
+.swiper-button-prev::after{font-size: 21px;}
+.slide-card p,.slide-card span{font-size: 12px;}
+.slide-card:hover p{ color: blue }
+.swiper-slide a {width: 80px;}
+#sec1{background: #000;}
+#head-txt p{
+    font-size: .8em; 
+    padding: 0 43px;
+}
+#sec1-img img:first-child{width: 32%;}
+#sec1-img img:last-child{width: 63%;}
+
+#iphone-img1{
+    background: url('../img/sec1-phone.jpg') center/contain no-repeat; 
+    height: 50vh; 
+    rotate: 90deg;
+}  
+#sec2{height: 65vh; overflow: hidden;}
+#iphone-img2{
+    background: url('../img/hero15.jpg')center/contain no-repeat;
+    height: 35vh;
+}
+.img2 {rotate: 0deg; scale: 2.2;}
+
+#iphone-img3{
+    background: url('../img/iphone_se_hero__gd586pazxqqa_large_2x.jpg')center/cover no-repeat ;
+    height: 100vh;
+}
+.sec-pp{padding: 0 80px;}
+.lovethepower h1{
+    background: -webkit-linear-gradient(#1e3791,#2948b1,#3153c6, #385fda);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.guided{
+    background: url('../img/guided_tour__c40f88on9o8y_small_2x.jpg') center/cover;
+    height: 50vh;
+}
+.g-text, .chapternav{display: none;}
+.part1{width: 190px;}
+
+#phone{width: 65%; padding-bottom: 30px;}
+#phone-se{width: 55%; padding-bottom: 30px;}
+#colors{width: 45%;}
+#phone-name{width: 90px !important;}
+#phone-name15pro{width: 120px !important;}
+.btn-buy{
+    padding: 3px 15px; 
+    font-size: .8em;
+    margin-bottom: 7px;
+}
+.section-phones{
+    gap: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-phones h5{font-size: 1.06em;}
+.section-phones1{gap: 2.5vw;}
+.new{font-size: .7em;}
+/* .box{margin: 50px 0; } */
+.box p{ font-size: .9em; margin: 5px 0;}
+.box h4{font-size: 1.25em; font-weight: 600;}
+.box{
+    height: 250px;
+    width: 200px;
+}
+.save-iphone-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.si-card{padding-top: 40px;}
+#si-img{background: url('../img/trade_in__elbczdpbk06e_small.jpg')center/cover; height: 30vh;}
+.si-card h4, .wa-card h2{font-weight: 600;}
+.p20{padding: 20px 0 ;}
+
+.why-apple{
+    height: 80vh; 
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.fs2{font-size: 2em;}
+/* .wa-card{background-color: #fff;} */
+.wa-card-img{overflow: hidden; object-fit: cover;}
+.wa-card-img img{width: 150%; margin-left: -100px;}
+/* .why-apple{background: url('../img/why_apple_small_2x.jpg') center/contain no-repeat; height: 100vh;} */
+.featured-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+.f-card-img { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.f-card-img img{width: 60%;}
+.f-card-img2 img {width: 100%;}
+
+#icon1{background: url('../img/icon_delivery_small.png') center no-repeat; height: 10vh;}
+#icon2{background: url('../img/icon_financing_small.png') center no-repeat; height: 10vh;}
+#icon3{background: url('../img/icon_personal_small.png') center no-repeat; height: 10vh;}
+.icon-sum h6{
+    font-weight: bold;
+}
+.iconlu-cards, .wm-cards{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+#wm-card1{background: url('../img/ios17ss.jpg') center/cover; height: 65vh;}
+#wm-card2{background: url('../img/switching_to_iphone.jpg') center/cover; height: 30vh; }
+#wm-card3{background: url('../img/woman.jpg') center/cover; height: 60vh; }
+#fitness{background: url('../img/update_promo_apple_fitness_iphone__762tbwjyo5ee_small_2x.jpg') center/cover; height: 80vh;}
+#news{background: url('../img/apple_news_plus_tilesmall.jpg') center/cover; height: 80vh;}
+#bundle2{background: url('../img/apple-research_small.jpg') center/contain no-repeat; height: 50vh;}
+#bundle img{width: 80%;}
+#appleone{width: 25%;}
+
+.lastpart p, .lastpart li{font-size: .75em; margin: 10px 0;}
+.lastpart ol{margin: 0 20px;}
+.lastpart a{
+    color: #6e6e73;
+    text-decoration: underline;
+}
+.footer-end{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.footer{display: none;}
+
+footer{margin: auto; width: 88%;}
+.footer-icon{width: 50%; font-size: .75em;}
+.footer a, footer p, .footer-end a, .accordion-item a{
+    color: #6e6e73;
+    font-size: .8em;
+}
+.accordion-header button {background-color: #fff !important;}
+.footer-end{ flex-direction: column-reverse}
+.accordion{
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #fff;
+}
+#slider1{background: url('../img/goyslide.png') center/cover; height: 55vh;}
+#tv{background: url('../img/qaraslide.png') center/cover; height: 55vh;}
+#over{background-color: #09254A;}
+@media only screen and (min-width: 768px) {
+    .nav-list, .items{display: flex; gap: 2.3vw;}
+    .fa-bars{display: none;}
+    .fa-apple{font-size: 1.4em;}
+    #nav1 ul{justify-content: center;}
+    #head-txt p, .f-card1 p{font-size: 1.2em;}
+    #sec1-img img:first-child{width: 10%;}
+    #sec1-img img:last-child{width: 20%;}
+    #sec2{height: 100vh !important;}
+    #sec3{
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background-color: #FBFBFD;
+    }
+    #sec4{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 85vh;
+        gap: 6vw;
+    }
+    /* #f-card-img3{background: url('../img/airtag_large.jpg') center/cover; height: 100vh;} */
+    #iphone-img3{
+        background: url('../img/iphone_se_hero__large.jpg')center/cover ;
+        height: 100vh;
+        width: 500px;
+    }
+    .img2{scale: 1.5;}
+    #iphone-img1{
+        rotate: initial;
+        height: 40vh;
+        margin-bottom: 50px;
+    } 
+    .guided{
+        margin: 20px 50px;
+        height: 110vh;
+        border-radius: 35px;
+        position: relative;
+    }
+    .g-text{
+        display: block;
+        position: absolute;
+        top: 250px;
+        left: 200px;
+        color: #fff;
+    }
+    h2{font-size: 3.5em;}
+    #phone, #phone-se{width: 90% }
+    .section-phones{ flex-direction: row;}
+    .save-iphone-card{
+        flex-direction: row;
+        gap: 3vh;
+    }
+    .si-card{ width: 450px;}
+    .why-apple{background: url('../img/why_apple__ezn1ktvka6oi_large.jpg')center/contain no-repeat; height: 100vh;}
+    .wa-card-img{display: none;}
+    .why-apple{align-items: initial;}
+    .wa-card h2{font-size: 2.3em; margin-top: 100px;}
+    .wa-card p{font-size: 1.2em;}
+    .f-card1{
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        flex-direction: row;
+        gap: 6vw;
+        width: 1350px;
+        margin: auto;
+    }
+    .f-card1-reverse{display: flex; flex-direction: row-reverse;}
+    #f-card1-column{display: flex; flex-direction: column; gap: 0;}
+    /* .f-card-img3{background: url('../img/airpods_large.jpg')center/cover; height: 50vh;} */
+    .f-card-img img{width: 100%;}
+    .iconlu-cards{
+        height: 70vh;
+        font-size: 1.3em;
+        flex-direction: row;
+        gap: 6vw;
+        justify-content: center;
+    }
+    .wm-cards{
+        width: 1350px;
+        margin: auto;
+    }
+    #wm-card1{height: 100vh;}
+    .wm-all{
+        display: flex;
+        gap: 1.5vw;
+        justify-content:center;
+    }
+    #appleone{width: 100%;}
+    #appleone1{width: 10%;}
+    #appleone12{width: 100%;}
+    #wm-card3{height: 85vh;}
+    .lastpart{width: 65%;}
+    footer{ width: 62% }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+    }
+    .footer-in{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+    }
+    .footer h6{padding: 7px 0; font-size: .8em }
+    .footer a:hover, .footer-end a:hover {text-decoration: underline;}
+    .footer-end{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .f-row{display: flex;flex-direction: row;}
+    #soncard{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 70vh;
+        gap: 4vw;
+    }
+    #bundle2{
+        background: url('../img/apple-research_large.jpg') center/cover; 
+        height: 50vh;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 833px) {
+    .accordion{display: none;}
+} 
+@media only screen and (max-width: 833px) {
+    .footer{display: none;}
+} 
+@media only screen and (min-width: 1192px) {
+    .swiper{display: none;}
+    .chapternav{display: initial;}
+} 
