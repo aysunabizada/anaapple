@@ -60,7 +60,7 @@ body{
 /* M O B I L   BG-I M A G E S */
 #iphone-img1{ background: url('../img/sec1-phone.jpg') center/contain no-repeat; height: 30vh; rotate: 90deg;}  
 #iphone-img2{ background: url('../img/hero15.jpg')center/contain no-repeat; height: 100vh;}
-#iphone-img3{ background: url('../img/iphone_se_hero__gd586pazxqqa_large_2x.jpg')center/cover no-repeat;height: 50vh;}
+#iphone-img3{ background: url('../img/iphone_se_hero__gd586pazxqqa_large_2x.jpg')center/cover no-repeat;height: 55vh;}
 .guided{ background: url('../img/guided_tour__c40f88on9o8y_small_2x.jpg') center/cover; height: 50vh;}
 #si-img{ background: url('../img/trade_in__elbczdpbk06e_small.jpg')center/cover; height: 52vh;}
 #icon1{ background: url('../img/icon_delivery_small.png') center no-repeat; height: 10vh;}
@@ -68,14 +68,14 @@ body{
 #icon3{ background: url('../img/icon_personal_small.png') center no-repeat; height: 10vh;}
 #wm-card1{ background: url('../img/ios17ss.jpg') center/cover; height: 65vh;}
 #wm-card2{ background: url('../img/switching_to_iphone.jpg') center/cover; height: 39vh; }
-#wm-card3{ background: url('../img/woman.jpg') center/cover; height: 60vh; }
-#fitness{ background: url('../img/update_promo_apple_fitness_iphone__762tbwjyo5ee_small_2x.jpg') center/cover; height: 80vh;}
+#wm-card3{ background: url('../img/woman.jpg') center/cover; height: 60vh;}
+#fitness{ background: url('../img/update_promo_apple_fitness_iphone__762tbwjyo5ee_small_2x.jpg') center/cover; height: 70vh;}
 #news{ background: url('../img/apple_news_plus_tilesmall.jpg') center/cover; height: 80vh;}
-#bundle2{ background: url('../img/apple-research_small.jpg') center/contain no-repeat; height: 50vh;}
+#bundle2{ background: url('../img/apple-research_small.jpg') center/contain no-repeat; height: 40vh;}
 #slider1{ background: url('../img/goyslide.png') center/cover; height: 55vh;}
 #tv{ background: url('../img/qaraslide.png') center/cover; height: 55vh;}
 .f-card-img3{ background: url('../img/airtag_small_2x.jpg') center/cover; height: 45vh; }
-#over{background-color: #09254A;}
+#over{background-color: #09254A; margin-top: 2rem;}
 #bundle img{width: 80%;}
 .part1{width: 190px;}
 #phone{width: 65%; padding-bottom: 30px;}
@@ -154,6 +154,7 @@ footer{margin: auto; width: 88%;}
 
 /*             D E S K T O P               */
 @media only screen and (min-width: 768px) {
+    .dord{height: 80vh;}
     .nav-list, .items{display: flex; gap: 2.3vw;}
     .fa-bars, .mobilguided{display: none;}
     .fa-apple{font-size: 1.4em;}
@@ -204,6 +205,7 @@ footer{margin: auto; width: 88%;}
         left: 200px;
         color: #fff;
     }
+    #over{margin-top: 0;}
     h2{font-size: 3.5em;}
     .wm-card h2{font-size: 2.5em !important;}
     #phone, #phone-se{width: 90% }
@@ -212,6 +214,7 @@ footer{margin: auto; width: 88%;}
         flex-direction: row;
         gap: 3vh;
     }
+    #fitness{height: 90vh;}
     .why-apple{background: url('../img/why_apple__ezn1ktvka6oi_large.jpg')center/contain no-repeat; height: 100vh;}
     .wa-card-img{display: none;}
     .why-apple{align-items: initial;}
