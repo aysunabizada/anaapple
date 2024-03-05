@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iPhone - Apple</title>
-    <link rel="icon" href="img/apple-favicon.png" type="image/png" />
+    <link rel="icon" href="img/applefavicon.png" type="image/png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -191,7 +191,7 @@
         </div>
     </header>
     <section>
-        <div class="card border-0 text-center vh-100" id="sec1">
+        <div class="card border-0 text-center vh-100 bgblack" id="sec1">
             <div class="card-body py-5">
                 <p class="card-title txtred">New</p>
                 <div class="d-flex flex-column justify-content-center align-items-center" id="sec1-img">
@@ -233,18 +233,24 @@
             </div>
             <div id="iphone-img3"></div>
         </div>
-    </section> <br>
-    <div class="guided">
-        <div class="g-text">
-            <h5>A Guided Tour of</h5>
-            <h1 class="fw-bold">iPhone 15 & <br>
-                iPhone 15 Pro</h1>
-            <button type="button" class="btn btn-light rounded-pill my-3">Watch the film</button>
+    </section>
+    <section class="pt-5">
+        <div class="guided-top text-center py-5 mobilguided">
+            <h6>A Guided Tour of</h6>
+            <h1 class="fw-bold">iPhone 15 &<br>iPhone 15 Pro</h1>
+            <a href="" class="text-decoration-none learn-more ">Watch the film <i class="fa-regular fa-circle-play"></i></a>
         </div>
-    </div>
+        <div class="guided">
+            <div class="g-text">
+                <h5>A Guided Tour of</h5>
+                <h1 class="fw-bold">iPhone 15 &<br>iPhone 15 Pro</h1>
+                <button type="button" class="btn btn-light rounded-pill my-3">Watch the film</button>
+            </div>
+        </div>
+    </section>
     <section class="container py-5">
         <h2 class="text-center fw-bold">Which iPhone is right for you?</h2>
-        <div class="section-phones py-5">
+        <div class="section-phones py-5 d-flex">
             <div class="section-phones1 d-flex flex-row align-items-center justify-content-center">
                 <div class="part1 d-flex flex-column text-center ">
                     <div class="column1">
@@ -458,13 +464,13 @@
                 </div>
                 <div class="part1 d-flex flex-column text-center ">
                     <div class="column1">
-                        <a href=""><img src="img/compare_iphone_se__d5blqx1pgymq_large_2x.png" alt="iPhone se" id="phone-se"></a>
+                        <a href=""><img src="img/compare_iphone_se__d5blqx1pgymq_large_2x.png" alt="iPhone se" id="phone"></a>
                         <span><img src="img/color2.png" alt="Colors" id="colors"></span>
                         <div class="card-body py-4">
                             <p class="card-title txtred new">New</p>
                             <div class="d-flex flex-column" id="sec1-img">
-                                <a href=""><img src="img/logo_iphone_se.png" alt="iPhone SE" class="my-1" id="phone-name"></a>
-                                <h5>Serious power.<br>Serious value.</h5>
+                                <a href=""><img src="img/logo_iphone_se.png" alt="iPhone SE" class="my-3" id="phone-name"></a>
+                                <h5>Serious power.</h5>
                             </div>               
                             <p class="card-text my-3">From $429</p>
                             <a href="#" class="btn btn-primary rounded-pill btn-buy">Buy</a> <br>
@@ -534,15 +540,15 @@
     </section>
     <section class="bggray">
         <h2 class="text-center fw-bold py-5">Ways to save on iPhone</h2>
-        <div class="save-iphone-card container-lg">
-            <div class="si-card bgwhite">
+        <div class="save-iphone-card container-lg d-flex">
+            <div class="si-card bgwhite w-100">
                 <div class="si-top text-center">
                     <h4 class="my-2">Get $180–$620 in<br>credit when you trade<br>in iPhone 11 or higher.<sup>1</sup></h4>
                     <a href="" class="hover-line">See what your device is worth﹥</a>
                 </div> <br>
                 <div id="si-img"></div>
             </div>
-            <div class="si-card bgwhite">
+            <div class="si-card bgwhite w-100">
                 <div class="si-top text-center">
                     <p class="new">CARRIER TRADE‑IN DEALS</p>
                     <h4 class="my-2">iPhone carrier deals. <br>Right here at Apple.<br>For as low as $0.<sup>9</sup></h4>
@@ -551,7 +557,7 @@
                     <p class="new txtgray p20">Includes trade‑in and carrier credits. <br> AT&T: up to $1000. T‑Mobile: up to $800. <br>Verizon: up to $830.</p>
                 </div>
             </div>
-            <div class="si-card bgwhite">
+            <div class="si-card bgwhite w-100">
                 <div class="si-top text-center">
                     <h4 class="my-2">Pay 0% APR over<br>24 months with<br>Apple Card.</h4>
                     <p class="p20">Choose Apple Card Monthly<br>Installments when you check out.**</p>
@@ -560,7 +566,7 @@
                 </div>
             </div>
         </div>
-        <div class="why-apple container">
+        <div class="why-apple container bgwhite d-flex">
             <div class="wa-card text-center">
                 <h2 class="fs2">Why Apple is the best <br>place to buy iPhone.</h2>
                 <p class="my-4">You can choose a payment option that works for <br> you,
@@ -573,8 +579,8 @@
         </div>
 
         <h2 class="text-center fw-bold py-5">Featured accessories</h2>
-        <div class="featured-cards">
-            <div class="f-card1 bgwhite py-5">
+        <div class="featured-cards d-flex flex-column container">
+            <div class="f-card1 bgwhite py-5 w-100">
                 <div class="f-card-sum text-center">
                     <h2 class="fw-bold">MagSafe</h2>
                     <p class="p20">Snap on a magnetic case,<br> wallet, or both. And get fast,<br> efficient wireless charging.</p>
@@ -582,16 +588,16 @@
                 </div> <br>
                 <div class="f-card-img"><img src="img/magsafe__small_2x.jpg" alt=""></div>
             </div>
-            <div class="f-card1 bgwhite py-5 f-card1-reverse">
-                <div class="f-card-sum text-center w-100">
+            <div class="f-card1 bgwhite f-card1-reverse w-100">
+                <div class="f-card-sum text-center w-100 py-5">
                     <h2 class="fw-bold">AirTag</h2>
                     <p class="p20">Attach one to your keys. <br> Put another in your backpack. <br> If they’re misplaced, <br> just use the Find My app.</p>
                     <a href="" class="hover-line mx-3">Buy﹥</a>
                     <a href="" class="hover-line">Learn more﹥</a>
                 </div> <br>
-                <div class="f-card-img2"><img src="img/airtag_small_2x.jpg" alt=""></div>
+                <div class="f-card-img3"></div>
             </div>
-            <div class="f-card1 bgwhite py-5 flex-column" id="f-card1-column">
+            <div class="f-card1 bgwhite py-5 flex-column w-100" id="f-card1-column">
                 <div class="f-card-sum text-center">
                     <h2 class="fw-bold">Magic runs in <br> the family.</h2>
                     <p class="p20">Explore all AirPods models and <br>find the best ones for you.</p>
@@ -603,11 +609,11 @@
         <div class="links text-center fs-5 my-5">           
             <a href="" class="hover-line">Shop all iPhone accessories﹥</a>
         </div>
-        <div class="iconlu-cards">
+        <div class="iconlu-cards d-flex">
             <div class="icard1 text-center">
                 <div class="icon" id="icon1"></div>
                 <div class="icon-sum">
-                    <h6 class="my-3 fs-5">Fast, free delivery</h6>
+                    <h6 class="my-3 fs-5 fw-bold">Fast, free delivery</h6>
                     <p class="my-2">Or pick up available items at <br>an Apple Store.</p>
                     <a href="" class="hover-line">Learn more﹥</a>
                 </div>
@@ -615,7 +621,7 @@
             <div class="icard1 text-center">
                 <div class="icon" id="icon2"></div>
                 <div class="icon-sum">
-                    <h6 class="my-3 fs-5">Pay monthly at 0% APR</h6>
+                    <h6 class="my-3 fs-5 fw-bold">Pay monthly at 0% APR</h6>
                     <p class="my-2">You can pay over time when you <br> choose to check out with <br> Apple Card Monthly <br> Installments.**</p>
                     <a href="" class="hover-line">Learn more﹥</a>
                 </div>
@@ -623,7 +629,7 @@
             <div class="icard1 text-center">
                 <div class="icon" id="icon3"></div>
                 <div class="icon-sum">
-                    <h6 class="my-3 fs-5">Get help buying</h6>
+                    <h6 class="my-3 fs-5 fw-bold">Get help buying</h6>
                     <p class="my-2">Have a question? Call a <br>
                         Specialist or chat online. <br>
                         Call 1‑800‑MY‑APPLE.</p>
@@ -634,7 +640,7 @@
     </section>
     <section class="bggray">
         <h2 class="text-center fw-bold py-5">What makes an iPhone an iPhone?</h2>
-        <div class="wm-cards">
+        <div class="wm-cards d-flex container">
             <div class="wm-card text-center" id="wm-card1">
                 <div class="wm-text py-5">
                     <h2 class="fw-bold fs-1">iOS 17</h2>
@@ -661,21 +667,20 @@
     </section>
     <section class="bggray">
         <h2 class="text-center fw-bold py-5">Get more out of your iPhone.</h2>
-        <div class="wm-cards">
+        <div class="wm-cards d-flex container">
             <div class="wm-card text-center bgwhite" id="sec4">
                 <div class="wm-text py-5">
-                    <h2><img src="img/apple_one.jpg" alt="" id="appleone12"></h2>
+                    <h1 class="fw-bold display-1"><i class="fa-brands fa-apple" style="color: #000;"></i>One</h1>
                     <p class="my-3 fw-bold fs-5 ">Bundle up to six Apple services. <br> And enjoy more for less.</p>
                     <a href="" class="hover-line mx-3">Try it free <sup>10</sup>↗</a>
                     <a href="" class="hover-line">Learn more﹥</a>
                 </div>
                 <div id="bundle"><img src="img/bundle_small.jpg" alt=""></div>
             </div>
-            <!-- asdasdasd -->
             <div class="wm-all">
                 <div class="wm-card text-center bgblack w-100">
                     <div class="wm-text py-5">
-                        <img src="img/apple_tv_plus_logo.png" alt="Apple TV+" id="appleone1">
+                        <h2 class="fw-bold text-light"><i class="fa-brands fa-apple" style="color: #fff; font-size: 1em;"></i>tv+</h2>
                         <p class=" my-3 txtwhite">Get 3 months of Apple TV+ free<br> when you buy an iPhone.<sup>11</sup></p>
                         <a href="" class="hover-line mx-3">Try it free ↗</a>
                         <a href="" class="hover-line">Learn more﹥</a>
@@ -684,7 +689,7 @@
                 </div>
                 <div class="wm-card text-center w-100 text-white" id="over">
                     <div class="wm-text py-5">
-                        <!-- <img src="img/Apple_Music_logo.svg.png" alt="Apple Music" id="appleone1"> -->
+                        <h3><i class="fa-brands fa-apple" style="color: #fff; font-size: 1em;"></i>Music</h3>
                         <h3 class="my-3">Over 100 million songs.<br>Start listening for free today.</h3>
                         <a href="" class="hover-line mx-3 text-white">Try it free<sup>12</sup> ↗</a>
                         <a href="" class="hover-line text-white">Learn more﹥</a>
@@ -695,33 +700,33 @@
             <div class="wm-all">
                 <div class="wm-card text-center w-100" id="fitness">
                     <div class="wm-text py-5">
-                        <img src="img/logo_apple_fitness.png" alt="Fitness" id="appleone1">
+                        <h2 class="fw-bold"><i class="fa-brands fa-apple" style="color: #000; font-size: 1em;"></i>Fitness</h2>
                         <p class=" my-3">From HIIT to Meditation,<br> there’s something for everyone.</p>
                         <a href="" class="hover-line mx-3">Try it free<sup>13</sup> ↗</a>
                         <a href="" class="hover-line">Learn more﹥</a>
                     </div>
                 </div>
-                <div class="wm-card text-center bgwhite w-100">
+                <div class="wm-card text-center cardgray w-100">
                     <div class="wm-text py-5">
-                        <img src="img/logo_apple_arcade_png.png" alt="Apple Arcade" id="appleone1">
+                        <h2 class="fw-bold"><i class="fa-brands fa-apple" style="color: #000; font-size: 1em;"></i>Arcade</h2>
                         <p class="my-3">Get 3 months of Apple Arcade free <br>when you buy an iPhone.</p>
                         <a href="" class="hover-line mx-3">Try it free<sup>14</sup> ↗</a>
                         <a href="" class="hover-line">Learn more﹥</a>
                     </div>
-                    <div id="bundle"><img src="img/games.png" alt=""></div>
+                    <div id="bundle"><img class="w-100" src="img/gamesss.png" alt=""></div>
                 </div>
             </div>
             <div class="wm-all">
                 <div class="wm-card text-center w-100" id="news">
                     <div class="wm-text py-5">
-                        <img src="img/apple_news_plus.png" alt="News+" id="appleone1">
+                        <h2 class="fw-bold"><i class="fa-brands fa-apple" style="color: #000; font-size: 1em;"></i>News+</h2>
                         <p class=" my-3">Get 3 months of Apple News free <br>when you buy an iPhone. <sup>15</sup></p>
                         <a href="" class="hover-line">Learn more﹥</a>
                     </div>
                 </div>
-                <div class="wm-card text-center bgwhite w-100" id="gift">
+                <div class="wm-card text-center cardgray w-100" id="gift">
                     <div class="wm-text py-5">
-                        <img src="img/gift_card_logo_.png" alt="Apple GiftCard" id="appleone1">
+                        <h2 class="fw-bold"><i class="fa-brands fa-apple" style="color: #000; font-size: 1em;"></i>Gift Card</h2>
                         <p class="my-3">For everything and everyone.</p>
                         <a href="" class="hover-line">Learn more﹥</a>
                         <a href="" class="hover-line mx-3">Buy﹥</a>
@@ -729,7 +734,7 @@
                     <div><img class="w-100" src="img/giftcard_tile__dartrujkircm_small_2x.jpg" alt="" ></div>
                 </div>
             </div>
-            <div class="wm-card text-center bgwhite" id="soncard">
+            <div class="wm-card text-center cardgray" id="soncard">
                 <div class="wm-text py-5">
                     <h2 class="fw-bold">Introducing <br> the Apple <br> Research app.</h2>
                     <p class="my-3">The future of health research is you..</p>
@@ -740,7 +745,6 @@
             </div>
         </div>
     </section>
-
     <section class="container txtgray lastpart">
         <p>* Pricing for iPhone 15 and iPhone 15 Plus includes a $30 connectivity discount that requires activation with AT&T, T‑Mobile, or Verizon. Pricing shown for iPhone 14 and iPhone 14 Plus includes a $30 connectivity discount for Verizon and T‑Mobile customers that requires activation and would otherwise be $30 higher for all other customers.</p>
         <p>** Apple Card Monthly Installments (ACMI) is a 0% APR payment option that is only available if you select it at checkout in the U.S. for eligible products purchased at Apple Store locations, <a href="">apple.com</a>, the Apple Store app, or by calling 1‑800‑MY‑APPLE, and is subject to credit approval and credit limit. See <a href="">support.apple.com/kb/HT211204</a> 
@@ -1110,7 +1114,7 @@
             </div>
 
         <p class="p20">More ways to shop: <a href="" class="hover-line"> Find an Apple Store</a> or <a href="" class="hover-line">other retailer</a>  near you. Or call 1-800-MY-APPLE.</p> <hr>
-        <div class="footer-end">
+        <div class="footer-end d-flex">
             <p>Copyright © 2024 Apple Inc. All rights reserved.</p>
             <div class="links">
                 <a href="">Privacy Policy |</a>
@@ -1122,7 +1126,6 @@
             <p><a href=""></a>United States</p>
         </div>
     </footer>
-
     <script src="zeher.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -1141,40 +1144,7 @@
             },
             mousewheel: true,
         });
-        // var swiper2 = new Swiper2(".mySwiper2", {
-        //     slidesPerView: 3,
-        //     grid: {
-        //         rows: 2,
-        //     },
-        //     spaceBetween: 30,
-        //     pagination: {
-        //         el: ".swiper-pagination2",
-        //         clickable: true,
-        //     mousewheel: true,
-        //     },
-        // });
-        var swiper2 = new Swiper("#mySwiper2", {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            autoplay: {
-            delay: 500,
-            disableOnInteraction: false,
-            },
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            pagination: {
-                el: ".swiper-pagination2",
-            },
-        });
     </script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
